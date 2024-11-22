@@ -17,9 +17,8 @@ public class Cinema244107060101 {
         for (String[] rowAudience : audience) {
             System.out.println("Length of row: " + rowAudience.length);
         }
-        System.out.println("Audience in the row 3: ");
-        for (String i : audience[2]) {
-            System.out.println((i));
+        for (int i = 0; i < audience.length; i++) {
+            System.out.println("Audience in the tow: " + (i + 1) + String.join(  ", ", audience[i]));
         }
     }
 }
