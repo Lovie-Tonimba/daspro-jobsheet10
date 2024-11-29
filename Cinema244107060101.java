@@ -1,5 +1,6 @@
 public class Cinema244107060101 {
     public static void main(String[] args) {
+        //experiment 1
         String [][] audience = new String[4][2];
         audience[0][0] = "Amin";
         audience[0][1] = "Bena"; 
